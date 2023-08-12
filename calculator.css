@@ -1,0 +1,80 @@
+.calculator {
+  width: 350px;
+  height: 550px;
+  background-color: rgb(14, 9, 9);
+  margin-left: 300px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 32px;
+  margin-left: 20px;
+  color: rgba(112, 112, 112, 0.618);
+}
+.name button {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(54, 53, 53, 0.721);
+  border-width: 1.5px rgb(227, 227, 227);
+  border-radius: 8px;
+}
+p {
+  margin-right: 20px;
+  font-size: 15px;
+  margin-top: 30px;
+  color: rgba(139, 139, 139, 0.618);
+}
+#screen {
+  width: 300px;
+  height: 60px;
+  margin: 0px 23px 20px;
+  pointer-events: none;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 10px;
+  background-color: rgb(173, 173, 173);
+}
+.outer {
+  width: 320px;
+  height: 360px;
+  margin: 5px 15px 10px;
+  background-color: rgb(38, 34, 34);
+  border-radius: 30px;
+}
+.btn {
+  height: 50px;
+  width: 50px;
+  margin-left: 22px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgb(138, 56, 56);
+  border: none;
+  border-radius: 25px;
+  box-shadow: -5px -5px 8px rgba(107, 107, 107, 0.562) , 5px 5px 8px rgba(157, 157, 157, 0.473);
+}
+.btn:active {
+  background-color: black;
+  color: white;
+}
+.operators {
+  height: 50px;
+  width: 50px;
+  margin-left: 22px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgb(253, 252, 252) ;
+  border: none;
+  border-radius: 25px;
+  color: red;
+  box-shadow: -5px -5px 8px rgba(112, 112, 112, 0.562) , 5px 5px 8px rgba(149, 149, 149, 0.453);
+
+}
+.operators:active {
+  background-color: black;
+  color: white;
+}
